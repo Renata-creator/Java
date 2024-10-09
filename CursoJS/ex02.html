@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Java</title>
+    <style>
+        body{
+            background-color:rgb(105, 105, 173);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: ')) 
+        var n2 = Number(window.prompt('Digite outro número: ')) 
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) //concatenação //s.toString ou String(s))
+        // (number + number) serve para adição
+        //( string + string) serve para concatenação
+        // O window prompt te retorna uma string, mesmo que ele seja um número.
+        //Para fazer a conversão você pode usar várias maneiras; Number.parselnt(n) de um número para um número inteiro, 8, 9, 10..
+        //Outro é usar o Number.parseFloat(n) para números com vígula, números reais.
+        //Ou o Number(n) assim ele vai decidir se é real ou não.
+
+        //Se você quiser converter um número para string, você pode usar
+        //String(n) ou n.toString()
+        // Você também pode usar o s.length, ele siz quantas letras a String tem.
+        //s.toUpperCase(), tudo para letras Maiúsculas
+        //s.toLowerCase(), tudo para letras Minúsculas  
+    </script>
+</body>
+</html>
